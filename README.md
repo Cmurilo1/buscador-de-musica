@@ -1,16 +1,27 @@
-# React + Vite
+# 🎵 Music Finder - Localizador de Música
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto de buscador de músicas em tempo real que consome a API oficial do iTunes para listar álbuns e permitir a reprodução de prévias de áudio.
 
-Currently, two official plugins are available:
+## 🚀 Demonstração
+O projeto está hospedado e pode ser acessado aqui: 
+👉 [https://buscador-de-musica-pi.vercel.app/](https://buscador-de-musica-pi.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tecnologias Utilizadas
+* React: Biblioteca principal para construção da interface.
+* Vite: Ferramenta de build rápida para o ambiente de desenvolvimento.
+* JavaScript (ES6+): Lógica de programação e manipulação de estado.
+* CSS3: Estilização personalizada com foco em Dark Mode (#1a1a2e) e Grid Layout.
+* iTunes Search API: Utilizada para buscar dados reais de artistas e músicas.
+* Git & GitHub: Controle de versão e versionamento de código.
+* Vercel: Plataforma utilizada para o Deploy (hospedagem).
 
-## React Compiler
+## 🧠 Desafios e Aprendizados
+Durante o desenvolvimento deste projeto, foquei em resolver problemas reais de programação:
+* Tratamento de Sintaxe: Correção de erros complexos de escopo de chaves e exportação de módulos.
+* Consumo de API: Implementação de fetch assíncrono para buscar dados dinamicamente.
+* Persistência: Superação de erros de Deploy e Git (src refspec main) através de comandos de terminal avançados.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Como rodar o projeto localmente
+1. Clone o repositório:
+   `bash
+   git clone [https://github.com/Cmurilo1/buscador-de-musica.git](https://github.com/Cmurilo1/buscador-de-musica.git)
